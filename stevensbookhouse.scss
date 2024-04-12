@@ -1,0 +1,41 @@
+//Variables to use
+$prime-color: rgb(5, 131, 173);
+$secondary-color: rgb(74, 2, 243);
+$background-color: rgb(255, 205, 141);
+$size: 3px;
+$border: solid rgb(207, 165, 111);
+$text: center; 
+body{ 
+   text-align: center;
+   background-image: url(https://www.thatssotampa.com/wp-content/uploads/2023/04/BITDB-1024x637.png);
+    h1{
+    color: $secondary-color;
+    border: $border;max-width: 300px;
+    background-color: rgb(248, 201, 139);
+    margin-left: 800px;
+    }
+    h2{
+        color: $prime-color;
+        border: $border;max-width: 300px;
+        background-color:$background-color;
+        margin-left: 800px;
+    }
+    h3{
+        color: $prime-color;
+        border: $border;max-width: 520px;
+        background-color:$background-color;
+        margin-left: 700px;
+    }
+    section{
+        border: $border;max-width: 450px;
+        background-color: $background-color;
+        color: $secondary-color;
+        margin: 75px; margin-left: 700px;
+        padding: 20px;
+    }
+}
+img{
+    height: 275px; //to adjust images size to look more uniform and fit on page
+    padding: 25px; //creating space between image and links
+}
+    
